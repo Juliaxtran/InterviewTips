@@ -7,4 +7,4 @@
 // What are  some Javascript data types?
 
 // Primitive data types: String, Number, Boolean, Null, Undefined, Symbol, BigInt
-// Non-primitive data types: Object, Array, Function
+// Non-primitive data types: Object, Array, Function, Map, Set
