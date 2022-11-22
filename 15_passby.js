@@ -31,7 +31,7 @@ console.log(add(primitive), primitive); // 6 5
 
 const ref = {count:5};
 
-const add2(value) {
+const add2 = (value) => {
   value.count++
   return value.count + 1;
 }
