@@ -1,0 +1,57 @@
+/* What are some css selectors and how do they differ */
+/* Css specifity  */
+/* Sass and structure */
+
+
+
+/* ID Selector */
+#id-selector {
+  color: red;
+}
+
+/* Class Selector */
+.class-selector {
+  color: blue;
+}
+
+/* Element Selector */
+h1 {
+  color: green;
+}
+
+/* Descendant Selector */
+h1 span {
+  color: purple;
+}
+
+/* Child Selector */
+h1 > span {
+  color: orange;
+}
+
+/* Attribute Selector */
+a[href="http://www.google.com"] {
+  color: yellow;
+}
+
+/* Pseudo-class Selector */
+a:hover {
+  color: pink;
+}
+
+/* Pseudo-element Selector */
+a::before {
+  content: "http://";
+}
+
+/* Universal Selector */
+* {
+  color: black;
+}
+
+/* Grouping Selector */
+h1, h2, h3 {
+  color: white;
+}
+
+
