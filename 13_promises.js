@@ -8,16 +8,22 @@
 // Resolved
 // Rejected
 
+// how you use promises
 const fetch = require("node-fetch");
 
 
 async function getPost() {
   console.log(1);
 
-  const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
-  const json = await response.json();
+   try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
+    const json = await response.json();
 
-  console.log(json);
+    console.log(json);
+   } catch (error) {
+    console.log(error);
+   }
+
 
   // fetch('https://jsonplaceholder.typicode.com/posts/1')
   // .then((data) => data.json())
