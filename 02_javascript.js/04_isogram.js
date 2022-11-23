@@ -5,7 +5,9 @@
 
 const isIsogram = (string) => {
  const newString =  string.toLowerCase();
- return newString;
+ // wanna make an array
+ const result = newString.split('').every((v,i) => newString.indexOf(v) === i)
+ return result;
 }
 
 console.log(isIsogram('ambidExtrously'))
