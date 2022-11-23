@@ -7,8 +7,10 @@ const isPangram = (string) => {
    //2.remove all spaces.
    //3. remove all duplicates
    //4.Sort
+   // 5. Rejoim
   const processedString = [...new Set(string.toLowerCase().split(' ').join(''))].sort().join('');
   return abc === processedString;
+
 
 }
 
