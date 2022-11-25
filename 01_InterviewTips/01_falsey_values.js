@@ -27,3 +27,5 @@ if(word.length > 0) {
 if(false) {
   console.log('false')
 }
+
+// What is the difference between == and ===?
